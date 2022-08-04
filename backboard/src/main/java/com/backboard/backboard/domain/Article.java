@@ -14,8 +14,9 @@ public class Article {
     private LocalDateTime createAt; // 생성일시
     private String createdBy; // 생성자
     private  LocalDateTime modifiedAt; // 수정일시
-    private String modifiedBy; //수정자
+    private String modifiedBy; // 수정자
 
 
 
 }
+ 
