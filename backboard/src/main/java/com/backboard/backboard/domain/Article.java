@@ -1,6 +1,7 @@
 package com.backboard.backboard.domain;
 
-import jdk.jshell.execution.LoaderDelegate;
+
+import java.time.LocalDateTime;
 
 public class Article {
 
@@ -9,9 +10,10 @@ public class Article {
     private String content; // 내용
     private String  hashtag; // 해시태그
 
-    private LoaderDelegate createAt; //생성일시
+
+    private LocalDateTime createAt; // 생성일시
     private String createdBy; // 생성자
-    private LoaderDelegate modifiedAt; //수정일시
+    private  LocalDateTime modifiedAt; // 수정일시
     private String modifiedBy; //수정자
 
 
