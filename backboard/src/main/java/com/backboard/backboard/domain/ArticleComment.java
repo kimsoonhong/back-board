@@ -7,12 +7,12 @@ public class ArticleComment {
 
     private long id;
     private  Article article;
-    private String  content;
+    private String  content; //내용
 
-    private LoaderDelegate createAt;
-    private String createdBy;
-    private LoaderDelegate modifiedAt;
-    private String modifiedBy;
+    private LoaderDelegate createAt; //생성일시
+    private String createdBy; // 생성자
+    private LoaderDelegate modifiedAt; //수정일시
+    private String modifiedBy; //수정자
 
 
 
